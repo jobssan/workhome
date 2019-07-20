@@ -1,86 +1,86 @@
 #
-# This file contains configuration flags to customize your site
+# File ini berisi flag konfigurasi untuk menyesuaikan situs Anda
 #
 
-# Name of your site (displayed in the header)
-name: Your Name
+# Nama situs Anda (ditampilkan di tajuk)
+nama: Nama Anda
 
-# Short bio or description (displayed in the header)
-description: Web Developer from Somewhere
+# Bio atau deskripsi singkat (ditampilkan di tajuk)
+deskripsi: Pengembang Web dari Suatu Tempat
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
+# URL avatar atau foto profil Anda (Anda bisa menggunakan foto profil GitHub Anda)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 #
-# Flags below are optional
+# Bendera di bawah ini adalah opsional
 #
 
-# Includes an icon in the footer for each username you enter
-footer-links:
-  dribbble:
-  email:
+# Termasuk ikon di footer untuk setiap nama pengguna yang Anda masukkan
+tautan footer:
+  menggiring bola:
+  e-mail:
   facebook:
   flickr:
-  github: barryclark/jekyll-now
-  instagram:
+  github: barryclark / jekyll-now
+  Instagram:
   linkedin:
   pinterest:
-  rss: # just type anything here for a working RSS icon
+  rss: # cukup ketik apa saja di sini untuk ikon RSS yang berfungsi
   twitter: jekyllrb
-  stackoverflow: # your stackoverflow profile, e.g. "users/50476/bart-kiers"
-  youtube: # channel/<your_long_string> or user/<user-name>
-  googleplus: # anything in your profile username that comes after plus.google.com/
+  stackoverflow: # profil stackoverflow Anda, mis. "users / 50476 / bart-kiers"
+  youtube: # channel / <your_long_string> atau pengguna / <user-name>
+  googleplus: # apa pun di nama pengguna profil Anda yang muncul setelah plus.google.com/
 
 
-# Enter your Disqus shortname (not your username) to enable commenting on posts
-# You can find your shortname on the Settings page of your Disqus account
+# Masukkan nama pendek Disqus Anda (bukan nama pengguna Anda) untuk mengaktifkan komentar pada posting
+# Anda dapat menemukan nama pendek Anda di halaman Pengaturan akun Disqus Anda
 disqus:
 
-# Enter your Google Analytics web tracking code (e.g. UA-2110908-2) to activate tracking
+# Masukkan kode pelacakan web Google Analytics Anda (mis. UA-2110908-2) untuk mengaktifkan pelacakan
 google_analytics:
 
-# Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
-# Used for Sitemap.xml and your RSS feed
+# URL situs web Anda (mis. Http://barryclark.github.io atau http://www.barryclark.co)
+# Digunakan untuk Sitemap.xml dan umpan RSS Anda
 url:
 
-# If you're hosting your site at a Project repository on GitHub pages
-# (http://yourusername.github.io/repository-name)
-# and NOT your User repository (http://yourusername.github.io)
-# then add in the baseurl here, like this: "/repository-name"
+# Jika Anda meng-hosting situs Anda di repositori Proyek di halaman GitHub
+# (http://workhome.github.io/workhome)
+# dan BUKAN repositori Pengguna Anda (http://workhome.github.io)
+kemudian tambahkan dalam baseurl di sini, seperti ini: "/ workhome"
 baseurl: ""
 
 #
-# !! You don't need to change any of the configuration flags below !!
+# !! Anda tidak perlu mengubah flag konfigurasi di bawah ini !!
 #
 
-permalink: /:title/
+permalink: /: title /
 
-# The release of Jekyll Now that you're using
-version: v1.2.0
+# Pelepasan Jekyll Sekarang yang Anda gunakan
+versi: v1.2.0
 
-# Jekyll 3 now only supports Kramdown for Markdown
+# Jekyll 3 sekarang hanya mendukung Kramdown for Markdown
 kramdown:
-  # Use GitHub flavored markdown, including triple backtick fenced code blocks
+  # Gunakan markdown rasa GitHub, termasuk blok kode berpagar backtick tiga
   input: GFM
-  # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
+  # Jekyll 3 dan GitHub Pages sekarang hanya mendukung rouge untuk penyorotan sintaksis
   syntax_highlighter: rouge
   syntax_highlighter_opts:
-    # Use existing pygments syntax highlighting css
+    # Gunakan sintaksis pygments yang ada menyoroti css
     css_class: 'highlight'
 
-# Set the Sass partials directory, as we're using @imports
-sass:
-  style: :expanded # You might prefer to minify using :compressed
+# Setel direktori Sass partials, karena kami menggunakan @import
+kelancangan:
+  style:: diperluas # Anda mungkin ingin memperkecil menggunakan: dikompresi
 
-# Use the following plug-ins
-gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+# Gunakan plug-in berikut
+permata:
+  - jekyll-sitemap # Buat sitemap menggunakan permata sitemap Jekyll resmi
+  - jekyll-feed # Buat feed Atom menggunakan permata feed Jekyll resmi
 
-# Exclude these files from your production _site
-exclude:
+# Kecualikan file-file ini dari situs produksi Anda
+mengecualikan:
   - Gemfile
   - Gemfile.lock
-  - LICENSE
+  - LISENSI
   - README.md
   - CNAME
